@@ -1,1 +1,3 @@
 # python-course
+
+Studying Python
