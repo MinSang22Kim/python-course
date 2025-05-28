@@ -1,0 +1,5 @@
+ss = 'Python'
+print("1)", ss[0])           # 'P'
+print("2)", ss[1:2])         # 'y'
+print("3)", ss[-3:-1])       # 'ho'
+print("4)", ss[3:])          # 'hon'
