@@ -1,7 +1,7 @@
 ss = "오늘 수업은 python입니다."
 
 # (1) 문자열을 공백 기준으로 나눠 리스트로 만들기
-words = ss.split()
+words = ss.split() # 아무 인자 없으면 공백으로 split 하는 게 디폴트
 print(words)  # ['오늘', '수업은', 'python입니다.']
 
 # (2) 리스트를 '-'로 이어붙이기
