@@ -1,5 +1,7 @@
 # 문자열 리스트를 정수 리스트로 변환
 str_nums = ['1', '2', '3']
+print(str_nums) # ['1', '2', '3']
+
 int_nums = list(map(int, str_nums))
 print(int_nums)  # [1, 2, 3]
 
