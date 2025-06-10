@@ -8,9 +8,13 @@ print(words)  # ['오늘', '수업은', 'python입니다.']
 joined = "-".join(words)
 print(joined)  # '오늘-수업은-python입니다.'
 
-# (3) 문자열의 양쪽 공백 제거 (strip 연습)
+# (3-1) 문자열의 양쪽 공백 제거 (strip 연습)
 trimmed = ss.strip()
 print(trimmed)  # '오늘 수업은 python입니다.' (여기선 공백이 없지만 연습용)
+
+# (3-2) strip 응용 예시
+s3 = "...Hello!!!"
+print(s3.strip(".!"))   # 'Hello'
 
 # (4) 특정 부분 문자열 바꾸기
 replaced = ss.replace("python입니다.", "짱입니다.")
